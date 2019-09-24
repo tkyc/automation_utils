@@ -1,0 +1,148 @@
+[0923/184414.530154:WARNING:resource_bundle.cc(368)] locale_file_path.empty() for locale 
+[0923/184414.534807:WARNING:resource_bundle.cc(368)] locale_file_path.empty() for locale 
+[0923/184414.534945:VERBOSE1:zygote_main_linux.cc(601)] ZygoteMain: initializing 0 fork delegates
+[0923/184414.535112:INFO:cpu_info.cc(50)] Available number of cores: 4
+[0923/184414.537357:ERROR:gpu_process_transport_factory.cc(1009)] Lost UI shared context.
+[0923/184414.538291:ERROR:instance.cc(49)] Unable to locate service manifest for metrics
+[0923/184414.538323:ERROR:service_manager.cc(890)] Failed to resolve service name: metrics
+[0923/184414.540089:VERBOSE1:webrtc_internals.cc(109)] Could not get the download directory.
+[0923/184414.556545:WARNING:histograms.cc(40)] Started multiple compositor clients (Browser, Renderer) in one process. Some metrics will be disabled.
+[0923/184414.585849:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Aviator' log
+[0923/184414.585883:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Icarus' log
+[0923/184414.585894:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Pilot' log
+[0923/184414.585902:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Rocketeer' log
+[0923/184414.585911:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Skydiver' log
+[0923/184414.585920:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Log Server
+[0923/184414.585928:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Log Server 2
+[0923/184414.585935:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec log
+[0923/184414.585944:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec 'Vega' log
+[0923/184414.585952:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec 'Sirius' log
+[0923/184414.585960:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: WoSign log
+[0923/184414.585968:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Venafi Gen2 CT log
+[0923/184414.585976:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: CNNIC CT log
+[0923/184414.585984:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: StartCom log
+[0923/184414.585992:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Comodo 'Sabre' CT log
+[0923/184414.586000:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Comodo 'Mammoth' CT log
+[0923/184414.586008:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Izenpe log
+[0923/184414.586016:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Venafi log
+[0923/184414.586024:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Certly.IO log
+[0923/184414.586033:VERBOSE1:proxy_service.cc(958)] PAC support disabled because there is no system implementation
+[0923/184414.617963:ERROR:gl_implementation.cc(292)] Failed to load /home/tkyc/Repos/lib_tt_fetch/libosmesa.so: /home/tkyc/Repos/lib_tt_fetch/libosmesa.so: cannot open shared object file: No such file or directory
+[0923/184414.618857:VERBOSE1:gpu_init.cc(307)] gl::init::InitializeGLNoExtensionsOneOff failed
+[0923/184417.292083:ERROR:gpu_command_buffer_stub.cc(611)] ContextResult::kFatalFailure: Failed to create default offscreen surface.
+[0923/184417.296212:VERBOSE1:LocalWindowProxy.cpp(229)] A context is created NOT from snapshot
+[0923/184417.305537:VERBOSE1:LocalWindowProxy.cpp(229)] A context is created NOT from snapshot
+[0923/184417.309700:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/day.php?area=2
+[0923/184420.071661:VERBOSE7:cookie_monster.cc(1344)] SetCookie() line: MRBS_SESSID=bf3ihpovikofbdgh3h0jkb5i26; expires=Thu, 24-Oct-2019 01:41:00 GMT; Max-Age=2592000; path=/
+[0923/184420.071780:VERBOSE7:cookie_monster.cc(1403)] SetCookie() key: bcit.ca cc: name: MRBS_SESSID value: bf3ihpovikofbdgh3h0jkb5i26 domain: studyrooms.lib.bcit.ca path: / creation: 1569289460
+[0923/184420.074219:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: blob:https://studyrooms.lib.bcit.ca/a72fca4b-5479-46f6-a20a-a28d146a5f5c
+[0923/184420.079299:VERBOSE1:LocalWindowProxy.cpp(229)] A context is created NOT from snapshot
+[0923/184420.082780:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/jquery/ui/css/jquery-ui.structure.min.css
+[0923/184420.082907:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/jquery/ui/css/sunny/jquery-ui.theme.min.css
+[0923/184420.082991:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/jquery/datatables/css/jquery.dataTables.min.css
+[0923/184420.083074:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/jquery/datatables/css/buttons.dataTables.css
+[0923/184420.083143:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/jquery/datatables/css/fixedColumns.dataTables.min.css
+[0923/184420.083211:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/jquery/datatables/css/colReorder.dataTables.css
+[0923/184420.083305:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/css/mrbs.css.php
+[0923/184420.083885:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/jquery/jquery-2.2.4.min.js
+[0923/184420.083994:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/jquery/jquery-migrate-1.4.1.min.js
+[0923/184420.084094:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/jquery/ui/jquery-ui.min.js
+[0923/184420.084165:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/js/functions.js.php?area=2
+[0923/184420.084237:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/js/datepicker.js.php?area=2
+[0923/184420.084331:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/js/general.js.php?area=2
+[0923/184420.084419:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/js/refresh.js.php?area=2
+[0923/184420.084494:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/js/resizable.js.php?area=2
+[0923/184420.084564:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/js/multiple.js.php?area=2
+[0923/184420.084645:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/js/cell_click.js.php?area=2
+[0923/184420.319037:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed, version 1.4.1", source: https://studyrooms.lib.bcit.ca/jquery/jquery-migrate-1.4.1.min.js (2)
+[0923/184421.723263:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://ws.sharethis.com/button/buttons.js
+[0923/184421.758614:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://ss.sharethis.com/loader.js
+[0923/184421.857721:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/BCIT.png
+[0923/184421.863530:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/images/repeat.png
+[0923/184421.867452:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/css/mrbs-print.css.php
+[0923/184422.646215:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://ws.sharethis.com/button/async-buttons.js
+[0923/184422.649425:VERBOSE7:cookie_monster.cc(1403)] SetCookie() key: bcit.ca cc: name: __unam value: 6f92965-16d60f0e379-4a9ceb76-1 domain: .bcit.ca path: / creation: 1569289462
+[0923/184422.652177:VERBOSE7:cookie_monster.cc(1515)] InternalDeleteCookie(), cause:1, cc: name: __unam value: 6f92965-16d60f0e379-4a9ceb76-1 domain: .bcit.ca path: / creation: 1569289462
+[0923/184422.652227:VERBOSE7:cookie_monster.cc(1403)] SetCookie() key: bcit.ca cc: name: __unam value: 6f92965-16d60f0e379-4a9ceb76-2 domain: .bcit.ca path: / creation: 1569289462
+[0923/184422.683341:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://c.sharethis.mgr.consensu.org/portal.html
+[0923/184422.689226:VERBOSE7:cookie_monster.cc(1515)] InternalDeleteCookie(), cause:1, cc: name: __unam value: 6f92965-16d60f0e379-4a9ceb76-2 domain: .bcit.ca path: / creation: 1569289462
+[0923/184422.689266:VERBOSE7:cookie_monster.cc(1403)] SetCookie() key: bcit.ca cc: name: __unam value: 6f92965-16d60f0e379-4a9ceb76-3 domain: .bcit.ca path: / creation: 1569289462
+[0923/184422.691187:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://ws.sharethis.com/button/css/buttons-secure.css
+[0923/184422.708125:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: blob:https://c.sharethis.mgr.consensu.org/1bf741a1-93f4-4e66-ad2f-5a635bb644cf
+[0923/184422.713579:VERBOSE1:LocalWindowProxy.cpp(229)] A context is created NOT from snapshot
+[0923/184422.733648:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/jquery/ui/css/sunny/images/ui-bg_highlight-soft_100_feeebd_1x100.png
+[0923/184422.738218:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://studyrooms.lib.bcit.ca/jquery/ui/css/sunny/images/ui-bg_gloss-wave_45_817865_500x100.png
+[0923/184422.777251:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://l.sharethis.com/pview?event=pview&version=buttons.js&lang=en&fpc=6f92965-16d60f0e379-4a9ceb76-1&sessionID=1569289462649.74301&hostname=studyrooms.lib.bcit.ca&location=%2Fday.php&product=widget&stid=&fcmp=false&publisher=3b9c1b46-dd5f-487d-aea1-99f7c9011757&refDomain=&refQuery=&shareHash=sthash.yy3OUl76&incomingHash=&consentDomain=.consensu.org&url=https%3A%2F%2Fstudyrooms.lib.bcit.ca%2Fday.php%3Farea%3D2%23sthash.yy3OUl76&sharURL=&buttonType=ERROR&destination=ERROR&source=ERROR&title=Writing%20centre%20%2Fstudy%20room%20booking%20system&ts1569289462649.0=&sop=false
+[0923/184422.847049:VERBOSE7:cookie_monster.cc(1344)] SetCookie() line: __stid=ZGAAA12JdDEAAAASC/yLAw==; Path=/; Domain=sharethis.com; Expires=Thu, 24 Sep 2020 01:41:05 GMT
+[0923/184422.847125:VERBOSE7:cookie_monster.cc(1403)] SetCookie() key: sharethis.com cc: name: __stid value: ZGAAA12JdDEAAAASC/yLAw== domain: .sharethis.com path: / creation: 1569289462
+[0923/184422.848351:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://l.sharethis.com/sc?cm=ZGAAA12JdDEAAAASC%2FyLAw%3D%3D&uid=true&url=https%3A%2F%2Fstudyrooms.lib.bcit.ca%2Fday.php%3Farea%3D2%23sthash.yy3OUl76&sop=false
+[0923/184422.880576:VERBOSE1:loader_util.cc(47)] To buffer: https://l.sharethis.com/sc?cm=ZGAAA12JdDEAAAASC%2FyLAw%3D%3D&uid=true&url=https%3A%2F%2Fstudyrooms.lib.bcit.ca%2Fday.php%3Farea%3D2%23sthash.yy3OUl76&sop=false
+[0923/184422.881885:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://t.sharethis.com/1/d/t.dhj?rnd=1569289462882&cid=c010&dmn=studyrooms.lib.bcit.ca
+[0923/184422.906332:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://t.sharethis.com/a/t_.htm?ver=0.303.13675&cid=c010#rnd=1569289462882&cid=c010&dmn=studyrooms.lib.bcit.ca&tt=t.dhj&dhjLcy=23&lbl=pxcel&flbl=pxcel&ll=d&ver=0.303.13675&ell=d&cck=__stid&pn=%2Fday.php&qs=area%3D2&rdn=studyrooms.lib.bcit.ca&rpn=%2Fday.php&rqs=area%3D2&cc=CA&cont=NA&ipaddr=
+[0923/184422.914161:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: blob:https://t.sharethis.com/a85b8d85-5529-48a3-9872-28021acc5fc7
+[0923/184422.916364:VERBOSE1:LocalWindowProxy.cpp(229)] A context is created NOT from snapshot
+[0923/184422.921194:VERBOSE1:LocalWindowProxy.cpp(229)] A context is created NOT from snapshot
+[0923/184422.923011:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://t.sharethis.com/0.303.13675/a/CA/t_.js?cid=c010#rnd=1569289462882&cid=c010&dmn=studyrooms.lib.bcit.ca&tt=t.dhj&dhjLcy=23&lbl=pxcel&flbl=pxcel&ll=d&ver=0.303.13675&ell=d&cck=__stid&pn=%2Fday.php&qs=area%3D2&rdn=studyrooms.lib.bcit.ca&rpn=%2Fday.php&rqs=area%3D2&cc=CA&cont=NA&ipaddr=&htmReqTime=1569289462922
+[0923/184422.942246:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://pd.sharethis.com/pd/test_oracle?_t_=html
+[0923/184422.942397:VERBOSE7:cookie_monster.cc(1403)] SetCookie() key: sharethis.com cc: name: pxcelPage_c010 value: 0_7_1569289462942 domain: .t.sharethis.com path: / creation: 1569289462
+[0923/184422.942637:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://loadus.exelator.com/load/?p=847&g=001&j=0&puid=ZGAAA12JdDEAAAASC%2FyLAw%3D%3D
+[0923/184422.942759:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://bcp.crwdcntrl.net/5/c=9084/tp=SARE/tpid=ZGAAA12JdDEAAAASC%2FyLAw%3D%3D?https%3A%2F%2Fsync.sharethis.com%2Fint%2Flotame%3Fuid%3D%24%7Bprofile_id%7D
+[0923/184422.943683:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://match.adsrvr.org/track/cmf/generic?ttd_pid=1h1y1a7&ttd_tpi=1
+[0923/184422.943804:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://ps.eyeota.net/pixel?pid=1mpb5m0&t=gif&gdpr=0&gdpr_consent=
+[0923/184422.943893:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://ml314.com/utsync.ashx?eid=50131&et=13&cid=lr&fp=ZGAAA12JdDEAAAASC%2FyLAw%3D%3D&gdpr=0&gdpr_consent=&return=https%3A%2F%2Fidsync.rlcdn.com%2F395886.gif%3Fpartner_uid%3D%5BPersonID%5D
+[0923/184422.944857:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://spl.zeotap.com/?zdid=738&env=mWeb&eventType=pageview&zpb=sharethis
+[0923/184422.995673:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184422.995714:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184422.996679:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://match.adsrvr.org/track/cmb/generic?ttd_pid=1h1y1a7&ttd_tpi=1
+[0923/184423.003976:VERBOSE7:cookie_monster.cc(1344)] SetCookie() line: __cfduid=dc0e5147558d8d5975978626654a4e4a31569289266; expires=Wed, 23-Sep-20 01:41:06 GMT; path=/; domain=.zeotap.com; HttpOnly
+[0923/184423.004014:VERBOSE7:cookie_monster.cc(1403)] SetCookie() key: zeotap.com cc: name: __cfduid value: dc0e5147558d8d5975978626654a4e4a31569289266 domain: .zeotap.com path: / creation: 1569289463
+[0923/184423.004032:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.004444:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://sync.sharethis.com/zeotap?uid=12b0595d-d5a8-421d-4452-9f9008f60c03&rurl=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dzeotap_ddp%26google_cm%26zpartnerid%3D1%26env%3DmWeb%26zdid%3D738%26eventType%3Dpageview%26zpb%3Dsharethis
+[0923/184423.010348:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.016262:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.016620:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://idsync.rlcdn.com/395886.gif?partner_uid=5978151500475512257
+[0923/184423.037130:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.037166:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.038277:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://loadus.exelator.com/load/?p=847&g=001&j=0&puid=ZGAAA12JdDEAAAASC%2FyLAw%3D%3D&xl8blockcheck=1
+[0923/184423.064348:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://cm.g.doubleclick.net/pixel?google_nid=zeotap_ddp&google_cm&zpartnerid=1&env=mWeb&zdid=738&eventType=pageview&zpb=sharethisZGAAA12JdDEAAAASC/yLAw==
+[0923/184423.065676:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.066529:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://bcp.crwdcntrl.net/5/ct=y/c=9084/tp=SARE/tpid=ZGAAA12JdDEAAAASC%2FyLAw%3D%3D?https%3A%2F%2Fsync.sharethis.com%2Fint%2Flotame%3Fuid%3D%24%7Bprofile_id%7D
+[0923/184423.067116:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: blob:https://pd.sharethis.com/5526b55d-5b0d-4aa2-b361-912432c091d3
+[0923/184423.067223:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://load77.exelator.com/pixel.gif
+[0923/184423.069767:VERBOSE1:LocalWindowProxy.cpp(229)] A context is created NOT from snapshot
+[0923/184423.071057:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://pd.sharethis.com/pd/test_oracle
+[0923/184423.086643:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://tags.bkrtx.com/js/bk-coretag.js
+[0923/184423.089753:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.089787:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.091268:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://idsync.rlcdn.com/1000.gif?memo=CO6UGBIeChoIARCuXxoTNTk3ODE1MTUwMDQ3NTUxMjI1NxAAGg0Isuil7AUSBQjoBxAAQgBKAA
+[0923/184423.105109:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://sync.sharethis.com/int/lotame?uid=
+[0923/184423.109074:VERBOSE7:cookie_monster.cc(1344)] SetCookie() line: test_cookie=CheckForPermission; expires=Tue, 24-Sep-2019 01:56:06 GMT; path=/; domain=.doubleclick.net
+[0923/184423.109123:VERBOSE7:cookie_monster.cc(1403)] SetCookie() key: doubleclick.net cc: name: test_cookie value: CheckForPermission domain: .doubleclick.net path: / creation: 1569289463
+[0923/184423.109483:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://cm.g.doubleclick.net/pixel?google_nid=zeotap_ddp&google_cm=&zpartnerid=1&env=mWeb&zdid=738&eventType=pageview&zpb=sharethisZGAAA12JdDEAAAASC/yLAw==&google_tc=
+[0923/184423.130412:VERBOSE7:cookie_monster.cc(1344)] SetCookie() line: test_cookie=; domain=.doubleclick.net; path=/; expires=Mon, 21 Jul 2008 23:59:00 GMT
+[0923/184423.130478:VERBOSE7:cookie_monster.cc(1515)] InternalDeleteCookie(), cause:10, cc: name: test_cookie value: CheckForPermission domain: .doubleclick.net path: / creation: 1569289463
+[0923/184423.130495:VERBOSE7:cookie_monster.cc(1403)] SetCookie() key: doubleclick.net cc: name: test_cookie value:  domain: .doubleclick.net path: / creation: 1569289463
+[0923/184423.130506:VERBOSE7:cookie_monster.cc(1439)] SetCookie() not storing already expired cookie.
+[0923/184423.130522:VERBOSE7:cookie_monster.cc(1344)] SetCookie() line: IDE=AHWqTUn3BGEBtuQYUkHIv8g2ABn-YiHmAuJwVzA2Y6eWwLgVcl2IH3V-9P93xOqt; expires=Thu, 23-Sep-2021 01:41:06 GMT; path=/; domain=.doubleclick.net; HttpOnly
+[0923/184423.130535:VERBOSE7:cookie_monster.cc(1403)] SetCookie() key: doubleclick.net cc: name: IDE value: AHWqTUn3BGEBtuQYUkHIv8g2ABn-YiHmAuJwVzA2Y6eWwLgVcl2IH3V-9P93xOqt domain: .doubleclick.net path: / creation: 1569289463
+[0923/184423.132466:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://mwzeom.zeotap.com/mw?google_gid=CAESEAY7mAr7o_U5Z19v5CzUnXs&google_cver=1&zpartnerid=1&env=mWeb&zdid=738&eventType=pageview&zpb=sharethisZGAAA12JdDEAAAASC/yLAw==
+[0923/184423.142576:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.142848:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://ml314.com/csync.ashx?fp=&person_id=5978151500475512257&eid=50082
+[0923/184423.169959:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.324631:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.324668:VERBOSE7:cookie_monster.cc(1344)] SetCookie() line: ONPLFTRH=42034|XYl0N; path=/
+[0923/184423.324686:VERBOSE7:cookie_monster.cc(1403)] SetCookie() key: eyeota.net cc: name: ONPLFTRH value: 42034|XYl0N domain: ps.eyeota.net path: / creation: 1569289463
+[0923/184423.325147:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://ps.eyeota.net/pixel/bounce/?pid=1mpb5m0&t=gif&gdpr=0&gdpr_consent=
+[0923/184423.414597:VERBOSE1:loader_util.cc(47)] To buffer: https://ps.eyeota.net/pixel/bounce/?pid=1mpb5m0&t=gif&gdpr=0&gdpr_consent=
+[0923/184423.772374:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://ws.sharethis.com/secure5x/index.html
+[0923/184423.780328:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: blob:https://ws.sharethis.com/b47adbe3-d535-43f4-86e7-2b11887baba9
+[0923/184423.783531:VERBOSE1:LocalWindowProxy.cpp(229)] A context is created NOT from snapshot
+[0923/184423.785169:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://ws.sharethis.com/secure5x/js/stcommon.1f60705adac788a51a8240cf535237b0.js
+[0923/184423.785347:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://ws.sharethis.com/secure5x/js/st.e9bdabe010179964815c31077bb3095b.js
+[0923/184423.859606:VERBOSE1:LocalWindowProxy.cpp(229)] A context is created NOT from snapshot
+[0923/184423.862138:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://stags.bluekai.com/site/59574?ret=html&phint=id%3DZGAAA12JdDEAAAASC%2FyLAw%3D%3D&phint=__bk_k%3D&phint=__bk_pr%3Dhttps%3A%2F%2Ft.sharethis.com%2Fa%2Ft_.htm%3Fver%3D0.303.13675%26cid%3Dc010&phint=__bk_l%3Dhttps%3A%2F%2Fpd.sharethis.com%2Fpd%2Ftest_oracle%3F_t_%3Dhtml&phint=__bk_v%3D3.1.3&limit=5&r=64785964
+[0923/184423.960131:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.960167:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.960178:VERBOSE7:canonical_cookie.cc(198)] WARNING: Couldn't parse cookie
+[0923/184423.961169:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: blob:https://stags.bluekai.com/3e7db88a-5d8b-4167-a9e2-447a4cf1b05d
+[0923/184423.963620:VERBOSE1:LocalWindowProxy.cpp(229)] A context is created NOT from snapshot
