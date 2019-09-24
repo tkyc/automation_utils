@@ -5,6 +5,25 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 
+class Rooms:
+
+    #Room names
+    rooms = dict({
+        0: "130D",
+        1: "130E",
+        2: "130F",
+        3: "130G",
+        4: "130H",
+        5: "130I",
+        6: "137",
+        7: "138",
+        8: "140",
+        9: "141",
+        10: "312"
+    })
+
+
+
 class TimeBlocks:
     
     #Time blocks within timetable
@@ -45,6 +64,7 @@ class TimeBlocks:
 
 
 class Library:
+
     #A "." within an xpath denotes a child element
 
     #Hour per time block
@@ -62,23 +82,50 @@ class Library:
     #The the time blocks in a row within the timetable. First index contains room number
     booking_block = ".//td"
 
+
+
     def __init__(self, driver):
         self.driver = driver
 
-    #Get booked schedule for room at specified index
+
+
     def get_room_schedule(self, index):
+        """
+        Get the booked schedule for the room at the specified index.
+
+        Args:
+            index - The room index (refer to Rooms enum).
+
+        Return:
+            Dict. containing booked hours.
+        """
         wait = WebDriverWait(self.driver, 20)
         wait.until(EC.visibility_of_element_located((By.XPATH, Library.timetable)))
 
         time_blocks = (self.driver.find_elements(By.XPATH, Library.room_bookings)[index]
                                   .find_elements(By.XPATH, Library.booking_block))
 
-        self.get_booked_hours(time_blocks)
+        print(self.get_booked_hours(time_blocks, index))
 
-    #Helper
-    def get_booked_hours(self, blocks):
+
+
+    def get_booked_hours(self, blocks, index):
+        """
+        Gets the booked hours for the room given the time block elements.
+
+        Args:
+            blocks - The time blocks for the room (Refer to time_blocks in get_room_schedule()).
+            index - The room index (refer to Rooms enum).
+
+        Return:
+            Dict. containing booked hours.
+        """
+
         #Indicating current time block in time block hashmap when looping over blocks
         hash_block_index = 0
+
+        room = {"room": Rooms.rooms[index], "booked_hours": []}
+
         #First time block in timetable starts at index 1
         for block in range(1, len(blocks) - 1): 
             block_type = blocks[block].get_attribute("class")
@@ -92,13 +139,27 @@ class Library:
                 offset = booked_time / Library.factor
 
                 #Get the booked hours for specified block
-                print(self.get_block_hour(offset, hash_block_index))
+                #print(self.get_block_hour(offset, hash_block_index))
+                room["booked_hours"].append(self.get_block_hour(offset, hash_block_index))
                 hash_block_index += offset
 
             else:
                 hash_block_index += 1
 
-    #Helper
+        return room
+
+
+
     def get_block_hour(self, offset, hash_block_index):
+        """
+        Get the booked time range.
+
+        Args:
+            offset - Number of blocks from the start time to the end time.
+            hash_block_index - The index of the current time block.
+
+        Return:
+            The booked time range.
+        """
         return (TimeBlocks.time_blocks[hash_block_index] + " - " 
               + TimeBlocks.time_blocks[hash_block_index + offset])
