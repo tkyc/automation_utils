@@ -5,6 +5,7 @@ from page_objects.library import Library
 import subprocess
 import os
 import sys
+import json
     
     
         
@@ -33,15 +34,15 @@ library = Library(driver)
 
 #Start fetching library study room timetables
 driver.get(library.url)
-library.get_room_schedule(0)
-library.get_room_schedule(1)
-library.get_room_schedule(2)
-library.get_room_schedule(3)
-library.get_room_schedule(4)
-library.get_room_schedule(5)
-library.get_room_schedule(6)
-library.get_room_schedule(7)
-library.get_room_schedule(8)
-library.get_room_schedule(9)
-library.get_room_schedule(10)
+schedule = {'rooms': []}
+
+for i in range(0, 11, 1):
+    schedule['rooms'].append(library.get_room_schedule(i))
+
+#print(schedule)
+with open('schedule.json', 'w') as json_file:
+    json.dump(schedule, json_file)
+
 driver.quit()
+subprocess.check_output('rm -rf locales; rm -rf chrome_debug.log', shell=True, stderr=subprocess.STDOUT)
+print('Fetch complete.')

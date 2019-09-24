@@ -34,7 +34,7 @@ def handler(event, context):
     chrome_options.add_argument('--disk-cache-dir=/tmp/cache-dir')
     chrome_options.add_argument('user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36')
     chrome_options.binary_location = '/tmp/headless-chromium'
-    driver = webdriver.Chrome(chrome_options=chrome_options, executable_path='/tmp/chromedriver')
+    driver = webdriver.Chrome(options=chrome_options, executable_path='/tmp/chromedriver')
     library = Library(driver)
     
     #Start fetching library study room timetables

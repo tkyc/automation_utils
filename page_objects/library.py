@@ -105,7 +105,7 @@ class Library:
         time_blocks = (self.driver.find_elements(By.XPATH, Library.room_bookings)[index]
                                   .find_elements(By.XPATH, Library.booking_block))
 
-        print(self.get_booked_hours(time_blocks, index))
+        return self.get_booked_hours(time_blocks, index)
 
 
 
