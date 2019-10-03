@@ -5,10 +5,13 @@ from page_objects.library import Library
 import subprocess
 import os
 import sys
+import json
+import boto3
     
     
         
 def handler(event, context):
+
     #Move executables into /tmp (AWS Lambda is read-only except in /tmp)
     subprocess.check_output('cp ./chromedriver /tmp; cp ./headless-chromium /tmp; chmod 777 /tmp/chromedriver; chmod 777 /tmp/headless-chromium', shell=True, stderr=subprocess.STDOUT)
     #Append chromedriver path to PATH variable
@@ -39,17 +42,16 @@ def handler(event, context):
     
     #Start fetching library study room timetables
     driver.get(library.url)
-    library.get_room_schedule(0)
-    library.get_room_schedule(1)
-    library.get_room_schedule(2)
-    library.get_room_schedule(3)
-    library.get_room_schedule(4)
-    library.get_room_schedule(5)
-    library.get_room_schedule(6)
-    library.get_room_schedule(7)
-    library.get_room_schedule(8)
-    library.get_room_schedule(9)
-    library.get_room_schedule(10)
+    s3 = boto3.resource('s3')
+    schedule = {'rooms': []}
+
+    for i in range(0, 11, 1):
+        schedule['rooms'].append(library.get_room_schedule(i))
+
+    with open('/tmp/schedule.json', 'w') as json_file:
+        json.dump(schedule, json_file)
+
     driver.quit()
-    
+    s3.meta.client.upload_file('/tmp/schedule.json', 'etc-bucket-a01021558', 'schedule.json')
+    #print(schedule)
     return 'Timetable fetch success.'
